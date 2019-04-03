@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.andrew.game1.start"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"  >
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="32sp"
+        android:text="Eat the fruits"/>
+
+
+    -<TableLayout
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_marginTop="80dp">
+
+
+    -<TableRow
+    android:gravity="center_vertical">
+
+
+
+</TableRow>
+
+    -<TableRow
+    android:gravity="center_vertical"
+    android:layout_marginTop="20dp">
+
+    <ImageView
+        android:layout_height="20dp"
+        android:layout_width="20dp"
+        android:src="@drawable/bomb"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="18sp"
+        android:text="Game Over"
+        android:paddingLeft="10dp"/>
+
+</TableRow>
+
+
+    -<TableRow
+    android:gravity="center_vertical"
+    android:layout_marginTop="20dp">
+
+
+    <ImageView
+        android:layout_height="20dp"
+        android:layout_width="20dp"
+        android:src="@drawable/apple"/>
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="18sp"
+        android:text="apple"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="18sp"
+        android:text="10 points"
+        android:paddingLeft="10dp"/>
+
+</TableRow>
+
+    -<TableRow
+    android:gravity="center_vertical"
+    android:layout_marginTop="20dp">
+
+
+    <ImageView
+        android:layout_height="20dp"
+        android:layout_width="20dp"
+        android:src="@drawable/banana"/>
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="18sp"
+        android:text="banana"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="18sp"
+        android:text="30 points"
+        android:paddingLeft="10dp"/>
+
+</TableRow>
+
+</TableLayout>
+
+    <Button android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="START"
+        android:layout_marginTop="60dp"
+        android:onClick="startGame"/>
+
+</LinearLayout>
